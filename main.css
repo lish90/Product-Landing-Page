@@ -5,7 +5,7 @@
 }
 .nav-bar{
     height: 100vh;
-    background-image: linear-gradient(rgba(0,105,233,0.8),rgba(0,105,233,0.8),url());
+    background-image: linear-gradient(rgba(0,105,233,0.8),rgba(0,105,233,0.8),url(img/background.jpg));
     background-position: centre;
     background-size: cover;
     display: grid;
