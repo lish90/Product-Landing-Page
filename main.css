@@ -1,21 +1,101 @@
+
+/* Global Styles */
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
-
 }
+
+@font-face {
+    font-family: "Ruhl";
+    src: url("font/FrankRuhlLibre-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Ruhl Medium";
+    src: url("font/FrankRuhlLibre-Medium.ttf");
+  }
+  @font-face {
+    font-family: "Vibes";
+    src: url("font/GreatVibes-Regular.ttf");
+  }
+  
+  html {
+    font-size: 62.5%;
+    --header1: calc(2rem + 1vw);
+    --header2: calc(3.5rem + 1vw);
+    --header3: calc(3rem + 1vw);
+    --header4: calc(2.4rem + 1vw);
+    --text: calc(1.5rem + 1vw);
+    --big: calc(6rem + 1vw);
+    --special-color: #906272;
+    --background-color: #202020;
+    --gray-text: #f7f3f3;
+    scroll-behavior: smooth;
+  }
+  
+  h1 {
+    font-size: var(--header1);
+  }
+  li,
+  button,
+  label,
+  input,
+  a,
+  p {
+    color:#9D8189;
+    font-size: var(--text);
+  }
+  h2 {
+    color:#E9B6BF;
+    font-size: var(--header2);
+  }
+  h3 {
+    color:#FFCAD4;
+    font-size: var(--header3);
+  }
+  h4,
+  h5 {
+    color:whitesmoke;
+    font-size: var(--header4);
+  }
+  
+  ul {
+    color: #C2CCC6;
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color:#C2CCC6;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body {
+    color: #FFCAD4;
+    background-color: #FFF9EC;
+    font-family: "Ruhl", sans-serif;
+    animation: opening 1s ease-in-out forwards;
+  }
+  h1 {
+    
+    font-family: "Vibes", sans-serif;
+  }
  
 /* nav section  */
  #header #nav-bar{
     display: flex;
     height: 12%;
-    border-bottom: 2px solid white ;
+    border-bottom: 0.3rem solid pink ;
 }
 /* logo here */
 .nav_left{
     flex-basis: 15%;
-    background-color: blueviolet;
-    padding-right:10px;
+    background-color:#FCBDA8;
+    padding-right:3rem;
 }
 .nav_left img {
     padding: 10%;
@@ -26,17 +106,17 @@
     align-items: center;
     flex-basis: 85%;
     width: auto;
-    background-color: crimson;    
+    background-color: white;    
 }
 #nav-ul li {
     display: inline-block;
-    padding: 0px 20px;  
+    padding: 0rem 1.4rem;  
     list-style: none;
 }
 .nav-link >a {
     text-decoration: none;
     transition: ease-in-out;
-    color: whitesmoke;
+    color: #9D8189
 }
 /* main section  */
 .wow-section {
