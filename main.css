@@ -2,37 +2,46 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+
 }
-#header{
-    background-image: linear-gradient(rgba(0,105,233,0.8),rgba(0,105,233,0.8),url(img/background.jpg));
-    background-position: centre;
-    background-size: cover;
-}
-#nav-bar{
+ 
+/* nav section  */
+ #header #nav-bar{
     display: flex;
     height: 12%;
-    border-bottom: 1px solid white ;
+    border-bottom: 2px solid white ;
 }
-
+/* logo here */
 .nav_left{
     flex-basis: 15%;
     background-color: blueviolet;
-    
+    padding-right:10px;
 }
-.nav_right{
+.nav_left img {
+    padding: 10%;
+}
+.nav_right {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
     flex-basis: 85%;
     width: auto;
-    background-color: crimson;
+    background-color: crimson;    
 }
-.nav_right ul li {
-    display: inline;
+#nav-ul li {
+    display: inline-block;
+    padding: 0px 20px;  
     list-style: none;
-    margin-left: auto;
-    margin-left: 5px;
 }
+.nav-link >a {
+    text-decoration: none;
+    transition: ease-in-out;
+    color: whitesmoke;
+}
+/* main section  */
 .wow-section {
     align-content:space-between; 
-    /* height: 80vh; */
+    /* height: 80vh; 
     /* position: relative; */
 
 }
@@ -49,3 +58,8 @@
 User Story #14: My product landing page should have at least one media query.
 
 User Story #15: My product landing page should utilize CSS flexbox at least once. */
+
+
+
+   
+ 
