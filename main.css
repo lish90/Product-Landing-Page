@@ -133,6 +133,7 @@
     height:90vh;
     overflow:hidden;
     position:relative;
+    /* padding-left: 3em; */
 }
 #carousel-wrapper .carousel{
     position:absolute;
@@ -145,7 +146,8 @@
 	z-index:1; 
 	display:none;
 	padding:0 15px;
-	animation: slide 2s ease;
+  animation: slide 2s ease;
+  
 }
 /* #carousel-wrapper .slide.active{
   display: flex;
@@ -181,6 +183,40 @@
 }
  .container_blog > p{
   color: #fcbda8;
+}
+/* free plan */
+#Free-Workout-programs{
+  display: grid;
+  min-height: 100vh;
+  position: relative;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 2.5em;
+  padding-top: 1.5em;
+}
+.fittnes-plan{
+/* background-color: beige; */
+overflow: hidden;
+}
+.fittnes-plan > img{
+  width: 42em;
+  object-fit: cover;
+
+}
+.fittnes-plan{
+}
+.fittnes-plan > .card_info{
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+  
+}
+/* .card_info{
+} */
+.card_info > h3{
+ 
+
 }
 
 
