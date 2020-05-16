@@ -130,14 +130,14 @@
     background-color: cyan;
 }
 #carousel-wrapper{
-    height:90vh;
-    overflow:hidden;
-    position:relative;
+  height:90vh;
+  overflow:hidden;
+  position:relative;
     /* padding-left: 3em; */
 }
 #carousel-wrapper .carousel{
-    position:absolute;
-    left:0;
+  position:absolute;
+  left:0;
 	top:0;
 	width: 100%;
 	height: 100%;
@@ -159,9 +159,8 @@
   flex: 2 1 40rem;
   text-align: center;
 }
-
 .blog{
-  min-height: 51vh;
+  min-height: 80vh;
   display: flex;
   flex-wrap: wrap;
  
@@ -171,7 +170,7 @@
   background-position: center;
   position: relative;
   left: 2em;
-  width: 27em;
+  width: 50em;
   padding: 150px 0;
   margin: 1rem;
 }
@@ -189,7 +188,7 @@
   display: grid;
   min-height: 100vh;
   position: relative;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   padding-left: 2.5em;
   padding-top: 1.5em;
 }
@@ -218,7 +217,11 @@ overflow: hidden;
  
 
 }
+/* community section */
 
+/* form section  */
+
+/* link- footer section */
 
 
 
