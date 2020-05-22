@@ -215,25 +215,61 @@ background: white;
   
 }
 .card_info >.card_timedetail > .card_duration {
-  position: absolute
+  position: absolute;
   display: flex;
-  text-align:justify;
-  
+  text-align:justify; 
 }
 .card_info > h3 {
   font-size:4.9em;
   margin: 0;
   text-align: start;
 }
-
 /* .card_timedetail > p{
   font-size: 3.5em;
- 
-
 } */
-/* community section */
 
+/* community section */
+#feedback-community{
+  max-height: 90vh;
+  /* min-width: 50vw; */
+  display: flex;
+  flex-direction:row;
+  justify-items: start;
+  text-align: center;
+  
+  
+}
+header {
+  margin: 0.9em;
+  padding: 0.7em;
+  /* position: relative; */
+ /* text-align: center; */
+}
+
+.sucess-story{
+  width: 27vw;
+  background-color: blanchedalmond;
+  margin: 1em;
+  padding: 0.9em;
+  display: flex;
+  }
+
+.sucess-story > img{
+  /* position: relative; */
+  right: 40%;
+  width: 45em;
+}
+.whyit_works > h3 {
+  /* position:absolute; */
+  left: 11%;
+  min-width: 10%;
+  /* bottom: 140em; */
+}
+.whyit_works > p {
+  line-height: 1.4;
+}
 /* form section  */
+
 
 /* link- footer section */
 
