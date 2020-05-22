@@ -291,9 +291,15 @@ header {
 
 }
 /* footer */
-.footer{
-    height: 100vh;
-    border: 3px solid black;
+.links{
+    height: 5vh;
+    font-size: 4.5em;
+    margin: 0.7em;
+}
+
+.links > i{
+  margin: 1em;
+  padding: 2em;
 }
 /* User Story #13: The navbar should always be at the top of the viewport.
 
