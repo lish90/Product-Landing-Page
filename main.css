@@ -230,14 +230,13 @@ background: white;
 
 /* community section */
 #feedback-community{
-  max-height: 90vh;
+  max-height: 40vh;
   /* min-width: 50vw; */
   display: flex;
   flex-direction:row;
   justify-items: start;
   text-align: center;
-  
-  
+  padding-bottom: 3em;
 }
 header {
   margin: 0.9em;
@@ -273,15 +272,24 @@ header {
 
 /* link- footer section */
 
+#form_section{
+  min-height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 
+}
 
+#form_section > h2 {
+  padding: 2em ;
+  text-align: center;
+}
+#form_section > input{
+  margin: 3rem ;
+  padding: 1rem;
 
-
-
-
-
-
-
+}
 /* footer */
 .footer{
     height: 100vh;
