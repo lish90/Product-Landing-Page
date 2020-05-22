@@ -168,9 +168,10 @@
 .about-me-img{
   background-size: cover;
   background-position: center;
+  object-fit: cover;
   position: relative;
   left: 2em;
-  width: 50em;
+  width: 32%;
   padding: 150px 0;
   margin: 1rem;
 }
@@ -189,34 +190,47 @@
   min-height: 100vh;
   position: relative;
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
   padding-left: 2.5em;
   padding-top: 1.5em;
 }
 .fittnes-plan{
-/* background-color: beige; */
 overflow: hidden;
-}
-.fittnes-plan > img{
-  width: 42em;
-  object-fit: cover;
+background: white;
 
 }
-.fittnes-plan{
+
+.fittnes-plan > img{
+  width: 100%;
+  object-fit: cover;
 }
-.fittnes-plan > .card_info{
+
+.fittnes-plan >.card_info {
   padding: 16px;
+  height: 10em;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   position: relative;
   
 }
-/* .card_info{
-} */
-.card_info > h3{
+.card_info >.card_timedetail > .card_duration {
+  position: absolute
+  display: flex;
+  text-align:justify;
+  
+}
+.card_info > h3 {
+  font-size:4.9em;
+  margin: 0;
+  text-align: start;
+}
+
+/* .card_timedetail > p{
+  font-size: 3.5em;
  
 
-}
+} */
 /* community section */
 
 /* form section  */
@@ -246,4 +260,42 @@ User Story #15: My product landing page should utilize CSS flexbox at least once
 
 
    
- 
+.card-trip {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-trip > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-trip h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-trip p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+
+
+.card-trip .card-trip-infos {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.card-trip-infos .card-trip-user {
+  position: absolute;
+  right: 16px;
+  top: -20px;
+  width: 40px;
+}
